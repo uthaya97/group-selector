@@ -1,0 +1,19 @@
+		* {
+		   margin:0;
+		   padding:0;
+		}
+	    div p{
+		   color:yellow;
+		   background-color:green;
+		   font-size:30px;
+		}
+
+		span>p{color:red;
+			background-color:white;
+		}
+		div+p{
+			font-size:40px;
+		}
+		div~p{
+			background-color:orange;
+		}
